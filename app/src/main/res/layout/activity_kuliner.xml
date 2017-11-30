@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spungkyb.kuissemarang.kuliner">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KULINER DI SEMARANG"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Tahu Gimbal"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tahu_gimbal_semarang"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tahu gimbal adalah makanan khas Semarang yang terdiri tahu goreng, gimbal, tempe, irisan kol dan disiram dengan sambal kacang. Gimbal adalah udang yang digoreng dengan tepung. Gimbal ini rasanya gurih, manis, dan juga pedas. Nyam! Anda bisa mencoba kuliner ini di Simpang Lima. Harga seporsinya, sekitar Rp 10 ribu. Murah meriah dan perut pun kenyang."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Tahu Pong"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/tahu_pong"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selain tahu gimbal, tahu pong juga merupakan makanan khas Semarang. Tahu pong adalah tahu goreng yang garing dan gurih. Saat digigit, tahu ini tidak berisi apapun atau kosong (kopong). Oleh sebab itu, tahu ini dinamakan tahu pong. Tahu Pong enak disantap saat panas. Lalu dicocol petis udang yang encer, berteman acar dan ulekan kasar cabai hijau. Rasanya sungguh membuat ketagihan. Harga seporsi tahu ini adalah Rp 6 ribu saja. Anda bisa menemukan penjual tahu pong di Simpang Lima, atau yang terkenal adalah di Jl Gajah Mada, berseberangan dengan Gereja Bethel."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Babat Gongso"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Babat Gongso adalah salah satu kuliner Semarang yang wajib dicoba bagi traveler pecinta babat. Anda bisa menemukannya di Nasi Goreng Pak Karmin, Jl Pemuda (Samping Jembatan Mberok), Semarang. Selain nasi goreng babat, babat gongso di sini terkenal dengan rasanya yang khas.Babat gongso adalah potongan Babat dan juga jeroan lainnya, seperti ati, limpa, paru atau iso, yang dimasak dengan bumbu kecap yang kental. Rasa manis dan pedas begitu terasa. Tak hanya itu, babat ini sangat empuk. Untuk satu porsinya dipatok harga Rp 25 ribu. Cukup mahal, tapi rasanya tak akan pernah Anda lupakan. Top markotop!"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Lumpia"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lunpia"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semarang identik dengan lumpia. Ya, Lumpia Semarang adalah jajanan yang paling diburu traveler saat berkunjung ke sana. Tak sulit untuk mencari jajanan yang satu ini. Biasanya traveler berburu lumpia di sekitar Simpang Lima. Lumpia di Semarang terkenal dengan lezatnya. Lumpia tersebut adalah perpaduan rasa antara Tionghoa dan Indonesia. Tambahkan cabai dan acar asam, maka rasanya tidak akan pernah anda lupakan. Salah satu Lumpia yang terkenal di Semarang adalah Lumpia Mataram yang mempunyai cabang di Jalan Mataram dan Jalan Kedungmundu Raya No. 16 Semarang. Harga satu lumpia sekitar Rp 9.000,- s/d Rp 12.000,-."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Nasi Ayam"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nasi_ayam"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nasi Ayam Semarang mirip-mirip dengan nasi liwet khas kota Solo. Nasi Ayam ini berupa sajian nasi putih yang terasa gurih karena dimasak dengan santan, yang disantap dengan suwiran daging ayam, sambal goreng labu siam dan krecek, tahu bacem atau tahu putih, dan telur pindang lalu diguyur dengan kuah santan. Harga satu porsi dibanderol dengan harga Rp. 10.000,- hingga Rp. 15.000,-. Cukup murah bukan?"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

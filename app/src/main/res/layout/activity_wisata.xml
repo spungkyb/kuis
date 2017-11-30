@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spungkyb.kuissemarang.wisata">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WISATA DI SEMARANG"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Pantai Maron"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pantai_maron"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berlokasi hanya beberapa ratus meter di utara Bandara Ahmad Yani Semarang, Pantai Maron adalah salah satu tempat wisata di Semarang yang ada di sebelah barat. Pantai Maron menawarkan keindahan pantai yang eksotis sehingga ramai dikunjungi wisatawan sekitar Semarang pada akhir pekan. Apabila anda ingin berkunjung ke Pantai Maron, perlu di ingat bahwa jalan menuju tempat ini masih terbuat dari tanah yang dipadatkan, sehingga apabila hujan jalanan tersebut akan menjadi licin. Harga tiket masuk Pantai Maron adalah 3,000 Rupiah."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Lawang Sewu"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/lawang_sewu"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lawang Sewu adalah nama sebuah gedung kuno di kota Semarang. Dibangun pada tahun 1904 oleh Belanda, Lawang Sewu dulunya berfungsi sebagai kantor perusahaan kereta api Belanda. Nama Lawang Sewu yang berarti seribu pintu berasal dari bentuk bangunannya yang mempunyai banyak pintu dan jendela. Yang menarik dari Lawang Sewu adalah suasana mistisnya yang dilengkapi dengan arsitektur megah khas jaman dahulu. Gedung Lawang Sewu juga mempunyai lantai bawah tanah yang dulunya difungsikan sebagai penjara. Harga tiket masuk Lawang Sewu adalah 10,000 Rupiah."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Kampoeng Wisata Taman Lele"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/kampung_lele"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kampoeng Wisata Taman Lele adalah salah satu tempat wisata di Semarang yang cocok untuk mengisi waktu liburan keluarga. Dengan luas lebih dari 2 hektar, Kampoeng Wisata Taman Lele mempunyai berbagai macam fasilitas penunjang rekreasi keluarga. Fasiltias yang dimiliki Kampoeng Wisata Taman Lele yaitu kolam renang, danau buatan, kebun binatang kecil, taman bermain anak, gazebo, penginapan, dan tempat pertunjukan. Jalan Walisongo, harga tiket masuk Kampoeng Wisata Taman Lele adalah 2,000 Rupiah pada hari Senin sampai dengan Sabtu, dan 3,500 Rupiah pada hari minggu."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Pantai Marina"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/pantai_marina"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Marina merupakan sebuah pantai kecil di sebelah utara kota Semarang. Berlokasi di Jalan Yos Sudarso, Pantai Marina adalah tempat wisata di Semarang yang paling disukai untuk kegiatan lari pagi atau jogging. Pantai yang terletak di sebuah perumahan ini mempunyai fasilitas kolam renang, speed boat, ski air, dan taman bermain anak-anak. Bersepeda di sekitar Pantai Marina juga sangat menyenangkan karena suasananya yang sepi dan sejuk dengan pepohonan."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Pantai Tirang"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/pantai_tirang"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Tirang adalah sebuah pantai biru dan bersih yang berlokasi dekat dengan bandara Ahmad Yani Semarang. Berjarak sekitar 5 KM dari Pantai Marina, Pantai Tirang  merupakan pantai favorit para pemancing ikan kakap putih dan ikan kerapu. Selain itu, di Pantai Tirang juga terdapat hutan bakau yang menarik untuk dilihat. Pantai Tirang cocok untuk anda yang lebih menyukai suasana pantai yang sepi."/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
